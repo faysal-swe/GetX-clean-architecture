@@ -1,4 +1,4 @@
-import 'package:clean_architecture/constant/app_colors.dart';
+import 'package:clean_architecture/theme/app_colors.dart';
 import 'package:clean_architecture/utils/app_size.dart';
 import 'package:clean_architecture/widgets/app_text/app_text.dart';
 import 'package:flutter/material.dart';
@@ -40,12 +40,12 @@ class AppCommonButton extends StatelessWidget {
         child: ElevatedButton(
           onPressed: onPressed,
           style: ElevatedButton.styleFrom(
-              backgroundColor: backgroundColor ?? AppColors.primaryColor,
+              backgroundColor: backgroundColor ?? AppColors.primary,
               shape: shape ??
                   RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),
-              side: BorderSide(color: borderColor ?? AppColors.primaryColor)),
+              side: BorderSide(color: borderColor ?? AppColors.primary)),
           child: AppText(
             title: title,
             style: style ??

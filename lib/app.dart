@@ -5,7 +5,7 @@ import 'routes/app_routes.dart';
 import 'routes/app_routes_files.dart';
 import 'screens/error_screens/error_screen.dart';
 import 'utils/app_translation/app_translation.dart';
-import 'utils/theme_data.dart';
+import 'theme/theme_data.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -23,13 +23,13 @@ class App extends StatelessWidget {
         return child!;
       },
       debugShowCheckedModeBanner: false,
-      title: "Care Prime",
+      title: "My App",
       translations: AppTranslation(),
       locale: const Locale('en', 'US'),
       fallbackLocale: const Locale('en', 'US'),
       initialRoute: AppRoutes.initialScreen,
       getPages: appRoutesFile,
-      theme: themeData,
+      theme: lightTheme,
     );
   }
 }

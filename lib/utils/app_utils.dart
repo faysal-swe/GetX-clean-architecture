@@ -1,5 +1,5 @@
 import 'dart:developer';
-import 'package:clean_architecture/constant/app_colors.dart';
+import 'package:clean_architecture/theme/app_colors.dart';
 import 'package:clean_architecture/widgets/app_text/app_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

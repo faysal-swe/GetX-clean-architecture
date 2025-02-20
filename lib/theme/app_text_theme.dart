@@ -1,4 +1,4 @@
-import 'package:clean_architecture/constant/app_colors.dart';
+import 'package:clean_architecture/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 const TextTheme appTextTheme = TextTheme(
@@ -8,7 +8,7 @@ const TextTheme appTextTheme = TextTheme(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w700,
       fontSize: 24.0,
-      color: AppColors.defaultBlack,
+      color: AppColors.darkGray,
     ),
 
     /// title medium
@@ -16,7 +16,7 @@ const TextTheme appTextTheme = TextTheme(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w400,
       fontSize: 16.0,
-      color: AppColors.defaultBlack,
+      color: AppColors.darkGray,
     ),
 
     /// title small
@@ -24,7 +24,7 @@ const TextTheme appTextTheme = TextTheme(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w400,
       fontSize: 14.0,
-      color: AppColors.defaultBlack,
+      color: AppColors.darkGray,
     ),
 
     /// body text
@@ -32,17 +32,17 @@ const TextTheme appTextTheme = TextTheme(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w400,
       fontSize: 16.0,
-      color: AppColors.defaultBlack,
+      color: AppColors.darkGray,
     ),
     bodyMedium: TextStyle(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w400,
       fontSize: 14.0,
-      color: AppColors.defaultBlack,
+      color: AppColors.darkGray,
     ),
     bodySmall: TextStyle(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w400,
       fontSize: 12.0,
-      color: AppColors.defaultBlack,
+      color: AppColors.darkGray,
     ));

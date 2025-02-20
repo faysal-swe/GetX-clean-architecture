@@ -37,6 +37,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   get: ^4.6.6
   auto_size_text: ^3.0.0
+  dio: ^5.8.0+1
+  pretty_dio_logger: ^1.4.0
+  skeletonizer: ^1.4.3
 
 dev_dependencies:
   flutter_test:
